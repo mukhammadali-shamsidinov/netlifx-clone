@@ -1,4 +1,8 @@
 .app{
   width: 100%;
-  
+  background: rgb(50, 46, 46);
+}
+
+.clear{
+  height: 40vh;
 }

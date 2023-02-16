@@ -1,10 +1,11 @@
 
 import './App.css';
-import Videos from './components/Videos';
 import styled from 'styled-components';
 import { useState } from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
+import Footer from './components/Footer';
+import SimpleSimpleSlider from './components/Slider'
 function App() {
   const [change] = useState('/images/home.png')
   return (
@@ -18,7 +19,10 @@ function App() {
 
 
       {/* Videos */}
-      <Videos />
+      <SimpleSimpleSlider />
+      <SimpleSimpleSlider />
+      <SimpleSimpleSlider />
+      <Footer />
     </div>
   );
 }

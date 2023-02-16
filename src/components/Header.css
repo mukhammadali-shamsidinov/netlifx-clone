@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 16px 5%;
+    font-size: 16px;
+    font-family: serif;
+  }
+  
+  header ul li {
+    margin-left: 16px;
+  }
+  
+  header button {
+    background: none;
+    color: white;
+    border: none;
+    margin-right: 16px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav + nav {
+    margin-left: auto;
+  }
+  
+  .search {
+    margin-left: auto;
+  }
+
+  i {
+    font-size: 20px;
+    padding-left: 20px;
+  }
