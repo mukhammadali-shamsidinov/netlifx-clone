@@ -5,7 +5,7 @@ import { useState } from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
 import Footer from './components/Footer';
-import SimpleSimpleSlider from './components/Slider'
+import Products from './components/Products';
 function App() {
   const [change] = useState('/images/home.png')
   return (
@@ -16,12 +16,7 @@ function App() {
       {/* Home */}
       <Home />
       </Container>
-
-
-      {/* Videos */}
-      <SimpleSimpleSlider />
-      <SimpleSimpleSlider />
-      <SimpleSimpleSlider />
+      <Products />
       <Footer />
     </div>
   );

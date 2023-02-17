@@ -2,21 +2,21 @@ import React from 'react'
 import styled from 'styled-components'
 const Card = () => {
   return (
-    <ImageContainer>
-        <Image src="/images/card.jpg" alt="card" />
-    </ImageContainer>
+    <CardContainer>
+        <Image src="https://techcrunch.com/wp-content/uploads/2022/12/vTFLEVeoF84aI5fuESrLmHerTK4.jpg?w=730&crop=1" alt="card-imgs"/>
+    </CardContainer>
   )
 }
 
-
 export default Card
 
-const ImageContainer = styled.div`
-margin:10px;
-`
-const Image = styled.img`
+const CardContainer = styled.div`
 width:300px;
 height:150px;
-transition:all .5s ease;
-cursor:pointer;
+`
+
+const Image = styled.img`
+width:100%;
+height:100%;
+objective-fit:cover;
 `
